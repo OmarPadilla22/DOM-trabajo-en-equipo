@@ -51,7 +51,19 @@
                 /*nueve*/  li.innerText = "four";
                 /*diez*/   document.querySelector("ul").appendChild(li);
 
-        
-        </script>
+/*Challenge Yourself
+Add on to Exercise #4
+1.-Loop over all the li inside the ol tag and give them a background "green" color.
+2.-Remove the div with a footer class.*/ 
+                //Challenge 1
+                var Inside = document.querySelectorAll("ol li");
+                for(var i = 0; i < Inside.length; i++){
+                Inside[i].style.backgroundColor = "green";
+                //Challenge 2
+                var footer = document.querySelector(".footer");
+                footer.remove();
+                }
+
+    </script>
 </body>
 </html>
